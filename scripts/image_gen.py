@@ -61,11 +61,12 @@ def generate_image(
         dict with image_urls or image_base64 data
     """
     
-    if not API_KEY:
+    api_key = os.environ.get("MINIMAX_API_KEY", "")
+    if not api_key:
         return {"error": "MINIMAX_API_KEY not set"}
     
     headers = {
-        "Authorization": f"Bearer {API_KEY}",
+        "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
     
