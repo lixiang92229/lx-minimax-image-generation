@@ -1,7 +1,7 @@
 ---
 name: minimax-image
 description: MiniMax文生图(T2I)和图生图(I2I)工具 / MiniMax image generation tool supporting T2I and I2I. Generate 1-9 images per request with customizable aspect ratios.
-metadata: {"openclaw": {"homepage": "https://github.com/lixiang92229/Minimax-Image-Generation-Skills"}}
+metadata: {"openclaw": {"homepage": "https://github.com/lixiang92229/lx-minimax-image-generation"}}
 ---
 
 # Minimax Image Generation Skill
